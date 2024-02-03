@@ -1,0 +1,47 @@
+body{
+    font-family: 'Arial',sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#container{
+    background-color: cyan;
+    width: 100%;
+    height: auto;
+}
+
+#header{
+    margin-top: 10px;
+    background-color: red;
+    
+}
+
+#logo{
+    margin-right: 85%;
+    background-color: blue;
+    height: 120px;
+    img{
+        background-color: white;
+        height: 10px;
+    }
+}
+#navbar{
+    background-color:pink;
+    margin-left: 25%;
+    margin-right: 50px;
+    word-spacing: 50px;
+
+    a{
+        letter-spacing: 5px;
+        font-weight: bold ;
+        font-style: italic ;
+    }
+
+    a:hover{
+        transition: all 0.5s;
+        color: yellow ;
+    }
+}
